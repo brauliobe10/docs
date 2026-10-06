@@ -1,0 +1,85 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Viajes AJT",
+  "theme": "almond",
+  "colors": {
+    "primary": "#1b2c8a",
+    "light": "#eef1ff",
+    "dark": "#070d3a"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/brauliobe10/ajt_viajes"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/brauliobe10/ajt_viajes"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Overview",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "configuration"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/catalog",
+              "features/booking",
+              "features/visa-advisory",
+              "features/user-accounts"
+            ]
+          },
+          {
+            "group": "Admin Panel",
+            "pages": [
+              "admin/overview",
+              "admin/packages",
+              "admin/reservations",
+              "admin/users",
+              "admin/reports"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Technical Reference",
+        "groups": [
+          {
+            "group": "Architecture",
+            "pages": [
+              "reference/architecture",
+              "reference/routing",
+              "reference/database-schema"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "reference/security",
+              "reference/rate-limiting"
+            ]
+          },
+          {
+            "group": "API Endpoints",
+            "pages": [
+              "reference/api-catalog",
+              "reference/api-auth",
+              "reference/api-booking"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
